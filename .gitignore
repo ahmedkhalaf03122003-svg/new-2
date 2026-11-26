@@ -1,0 +1,34 @@
+# تبعيات Node
+node_modules/
+.pnp
+.pnp.js
+
+# بناء Next.js
+.next/
+out/
+build/
+
+# أسرار البيئة — لا تُرفع أبدًا (قاعدة ذهبية 11)
+.env
+.env*.local
+.env.*
+!.env.example
+
+# سجلات
+*.log
+npm-debug.log*
+
+# نظام التشغيل والمحررات
+.DS_Store
+.idea/
+.vscode/
+
+# TypeScript
+*.tsbuildinfo
+next-env.d.ts
+
+# Vercel
+.vercel
+
+# مقاطع اختبار الدمج المحلية
+merger/public/test/
